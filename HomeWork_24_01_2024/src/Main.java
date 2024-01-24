@@ -9,7 +9,7 @@ class Main {
         System.out.println("Пользователь введите первое предложение: ");
         str = scanner.nextLine();
 
-        str = (str.replace("пошёл пошёл" , "пицца"));
+        str = str.replace("пошёл пошёл" , "пицца");
         System.out.println(str);
 
         String str1 = "Видение судьбы, повиновение судьбы";
